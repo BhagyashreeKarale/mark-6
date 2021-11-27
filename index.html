@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/main.css" rel="stylesheet" />
     <title>Minion Speak</title>
+    <div class="content __wait">
+        <!-- <div class="links">
+            <a class="links links-primary"
+                href="https://twitter.com/intent/tweet?url=https://codepen.io/levchenkod/full/VYKXOR&text=The%20thing%20that%20adds%20emoji%20in%20textareas%20%E2%9C%8C%20&hashtags=twemojiInput,twemoji,emoji"
+                target="_blank">Tweet if you like <img src="/images/tweeter.png" widht="18" height="18" x="1px"
+                    y="1px"></a>
+            <a class="links links-primary" href="https://github.com/LevchenkoD/twemoji-input" target="_blank">Pull if
+                you want <img src="/images/github.png" widht="18" height="18" x="1px" y="1px"> </a>
+        </div> -->
 </head>
+
 <body>
     <h1>Banana Talk</h1>
-
+    <div class="md-form mb-4 pink-textarea active-pink-textarea-2">
+        <i class="fas fa-angle-double-right prefix"></i>
+        <textarea id="txt-input" class="md-textarea form-control" rows="3" placeholder="Type your text here."></textarea>
+        <label for="txt-input"></label>
+    </div>
+    <button class="btn fourth" id="btn-translate">Translate</button>
     <script src="/app.js" type="text/javascript"></script>
 
+    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+    <!-- <button id="btn-translate">Translate</button>
+    <script src="/app.js" type="text/javascript"></script> -->
+
 </body>
-</html> 
+
+</html>
