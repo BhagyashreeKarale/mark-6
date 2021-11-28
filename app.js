@@ -1,13 +1,14 @@
 var btnTranslate = document.querySelector('#btn-translate');
-var txtInput = document.querySelector('#txt-input');
-
+var txtInput = document.querySelector('#input');
+var outputDiv = document.querySelector('#output')
 console.log(txtInput);
 function clickHandler() {
+    outputDiv.innerText = "sjgdukfa" +txtInput.value
     //we don't need return function clickEventHandler() so cut it off
     // return function clickEventHandler() { 
-        console.log('clicked'); 
+        // console.log('clicked'); 
     // };
-    console.log("input", txtInput.value);
+    // console.log("input", txtInput.value);
 }
 
 btnTranslate.addEventListener('click',clickHandler)
