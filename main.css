@@ -85,20 +85,4 @@ h1{
   }
   
   
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--primary);
-    text-align: center;
-}
-
-footer p {
-    max-width: var(--width-break);
-    margin: auto;
-}
-
   
-
-
