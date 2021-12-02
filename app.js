@@ -30,7 +30,7 @@ function clickHandler() {
         var output_text = json.contents.translated//this is what we need specifically-only the translated text from the data recieved after sending request
         outputDiv.innerText = output_text})//output the output
         // console.log(json.contents.translated)})
-    .catch(err8=>{console.log('somethings broken:(')//error handling
+    .catch(err8=>{console.log('somethings broken:(')//error
             alert('browser gone mad')})
 }
 
